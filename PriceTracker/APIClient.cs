@@ -18,7 +18,7 @@ namespace PriceTracker
 		private const string DEFAULT_URL = "https://poloniex.com/public?command=returnTicker";
 		private const string DEFAULT_PRICEKEY = "last";
 		private const string DEFAULT_CURRPAIR = "BTC_ETH";
-		private readonly TimeSpan? DEFAULT_PRICEINTERVAL = new TimeSpan(0,0,0,30,0);// 60 seconds
+		private readonly TimeSpan? DEFAULT_PRICEINTERVAL = new TimeSpan(0,0,0,60,0);// 60 seconds
 
 		// Mutable definitons as per user's response
 		private string _url;
@@ -56,7 +56,7 @@ namespace PriceTracker
 		};
 		
 		//Calculate simple moving average
-		private decimal GetAverage(Dictionary<int, decimal> lstPrcItems) 
+		public decimal GetAverage(Dictionary<int, decimal> lstPrcItems) 
 		{
 			List<decimal> averages = new List<decimal>();
 			//Measuring time to perform average calculation -- currently is commented out as it was only for informational purpose during development
@@ -105,7 +105,7 @@ namespace PriceTracker
             {
 				Counter++;
                 aTimer.Interval = this._priceInterval.Value.TotalMilliseconds;
-                Console.Write("{0}. Fetching price at {1} ", Counter, e.SignalTime);
+                Console.Write("{0}. Fetching price for {1} at {2} ", Counter, this._currPair, e.SignalTime);
                 var taskPrice = Task.Run(() => { 
                     return this.GetPriceAsync((msg, ex) => 
                         {
@@ -116,6 +116,8 @@ namespace PriceTracker
                             else
                             {
                                 Console.Write(msg);
+								// aTimer.Stop();
+								// throw ex;
                             }
                         }); 
                     }
@@ -135,7 +137,7 @@ namespace PriceTracker
 					decimal diffPrice = Decimal.Subtract(decimal.Parse(returnPrice), lstPrices.Where(t => t.Key == lstPrices.Count() - 2).Select(r => r.Value).FirstOrDefault());
 					
 					//Final output in console with all details
-					Console.WriteLine("Average price is : {0} {1} {2} {3}"
+					Console.WriteLine("Average price(out of available until now) is : {0} {1} {2} {3}"
 										, lstPrices.Select(t => t.Value).Average() 
 										, (lstPrices.Count > 1 ? 
 											string.Format("with {0} of {1} from previous price"
