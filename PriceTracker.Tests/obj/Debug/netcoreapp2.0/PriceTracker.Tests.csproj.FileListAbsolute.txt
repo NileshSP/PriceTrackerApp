@@ -1,0 +1,15 @@
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.Tests.deps.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.Tests.runtimeconfig.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.Tests.runtimeconfig.dev.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.Tests.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.Tests.pdb
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\bin\Debug\netcoreapp2.0\PriceTracker.pdb
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\obj\Debug\netcoreapp2.0\PriceTracker.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\obj\Debug\netcoreapp2.0\PriceTracker.Tests.AssemblyInfoInputs.cache
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\obj\Debug\netcoreapp2.0\PriceTracker.Tests.AssemblyInfo.cs
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\obj\Debug\netcoreapp2.0\PriceTracker.Tests.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker.Tests\obj\Debug\netcoreapp2.0\PriceTracker.Tests.pdb

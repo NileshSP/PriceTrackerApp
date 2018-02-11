@@ -1,0 +1,10 @@
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\bin\Debug\netcoreapp2.0\PriceTracker.deps.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\bin\Debug\netcoreapp2.0\PriceTracker.runtimeconfig.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\bin\Debug\netcoreapp2.0\PriceTracker.runtimeconfig.dev.json
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\bin\Debug\netcoreapp2.0\PriceTracker.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\bin\Debug\netcoreapp2.0\PriceTracker.pdb
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\obj\Debug\netcoreapp2.0\PriceTracker.csproj.CoreCompileInputs.cache
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\obj\Debug\netcoreapp2.0\PriceTracker.AssemblyInfoInputs.cache
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\obj\Debug\netcoreapp2.0\PriceTracker.AssemblyInfo.cs
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\obj\Debug\netcoreapp2.0\PriceTracker.dll
+C:\Users\Nilesh\OneDrive\Documents\VSCodeProjects\PoloniexPriceTracker\PriceTracker\obj\Debug\netcoreapp2.0\PriceTracker.pdb
